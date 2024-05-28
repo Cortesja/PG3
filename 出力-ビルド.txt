@@ -1,0 +1,34 @@
+ビルドを開始しました...
+1>------ ビルド開始: プロジェクト: PG3, 構成: Debug x64 ------
+1>main.cpp
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,18): error C3688: リテラル サフィックス 'E' が無効です。リテラル演算子またはリテラル演算子テンプレート 'operator ""E' が見つかりません
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,25): error C2018: 文字 '0x1b' は認識できません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,27): error C2065: 'B': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,28): error C2143: 構文エラー: ')' が ':' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,19): error C3861: '$JDB6b': 識別子が見つかりませんでした
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,28): error C2143: 構文エラー: ';' が ':' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,28): error C2059: 構文エラー: ':'
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,32): error C2017: エスケープシーケンスの使い方が正しくありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(22,34): error C2001: 定数が 2 行目に続いています。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,21): error C3688: リテラル サフィックス 'E' が無効です。リテラル演算子またはリテラル演算子テンプレート 'operator ""E' が見つかりません
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,22): error C2065: '$JDB6b$NJ': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,31): error C2143: 構文エラー: ')' が '}' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,31): error C2143: 構文エラー: ';' が '}' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,32): error C2065: '$': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,34): error C2065: '$': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,37): error C2018: 文字 '0x40' は認識できません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,36): error C2065: 'F': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,38): error C2146: 構文エラー: ';' が、識別子 '$G$9' の前に必要です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,38): error C2065: '$G$9': 定義されていない識別子です。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,42): error C2143: 構文エラー: ';' が '!' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(25,43): error C2014: プリプロセッサ ディレクティブのシャープ記号 (#) の前に、空白文字以外の文字があります。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(26,2): error C2059: 構文エラー: '}'
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(27,2): error C2059: 構文エラー: 'else'
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(27,7): error C2143: 構文エラー: ';' が '{' の前にありません。
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(27,7): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(30,2): error C2059: 構文エラー: 'return'
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(31,1): error C2059: 構文エラー: '}'
+1>C:\Users\Jared\Documents\GitHub\PG3\main.cpp(31,1): error C2143: 構文エラー: ';' が '}' の前にありません。
+1>プロジェクト "PG3.vcxproj" のビルドが終了しました -- 失敗。
+========== ビルド: 成功 0、失敗 1、最新の状態 0、スキップ 0 ==========
+========== ビルド は 6:05 PM に開始され、00.541 秒 かかりました ==========
