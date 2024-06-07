@@ -7,15 +7,11 @@ class Compare {
 public:
     Compare(Type v1, Type v2) : value1_(v1), value2_(v2) {} //コンストラクター
 
-    void printMinResult() { //minを出力関数
-        Type result;
+    Type getMinResult() { //minを出力関数
         if (value1_ > value2_) {
-            result = static_cast<Type> (value2_);
+            return static_cast<Type> (value2_);
         }
-        else {
-            result = static_cast<Type> (value1_);
-        }
-        cout << result << endl;
+        return static_cast<Type> (value1_);
     }
 private:
     Type value1_;
@@ -33,12 +29,12 @@ int main() {
     Compare<float> compareFloatDouble(1.0f, 3444.4);
 
     //比べた後の結果を出力
-    compareInt.printMinResult();
-    compareFloat.printMinResult();
-    compareDouble.printMinResult();
+    printf("%d\n", compareInt.getMinResult());
+    printf("%0.2f\n", compareFloat.getMinResult());
+    printf("%lf\n", compareDouble.getMinResult());
 
-    compareIntDouble.printMinResult();
-    compareDoubleInt.printMinResult();
-    compareFloatDouble.printMinResult();
+    printf("%d\n", compareIntDouble.getMinResult());
+    printf("%lf\n", compareDoubleInt.getMinResult());
+    printf("%0.2f\n", compareFloatDouble.getMinResult());
 	return 0;
 }
