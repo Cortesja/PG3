@@ -3,7 +3,7 @@ class Animal
 {
 public:
 	Animal(){}
-	~Animal(){}
+	virtual ~Animal(){}
 	/// <summary>
 	/// 鳴き声
 	/// </summary>

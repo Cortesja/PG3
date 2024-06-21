@@ -4,7 +4,7 @@ class Cat: public Animal
 {
 public:
 	Cat(const char* name) { name_ = name; }
-	~Cat(){}
+	~Cat()override{}
 	/// <summary>
 	/// 猫の鳴き声
 	/// </summary>
