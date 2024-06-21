@@ -3,14 +3,21 @@
 #include "Dog.h"
 #include "Chicken.h"
 int main() {
-	Cat* cat = new Cat("猫ちゃん");
-	Dog* dog = new Dog("ワンちゃん");
-	Chicken* chicken = new Chicken("鶏ちゃん");
+	Animal* animal[3];
+	for (int i = 0; i < 3; ++i) {
+		if (i < 1) {
+			animal[i] = new Cat("猫ちゃん");
+		}
+		else if (i < 2) {
+			animal[i] = new Dog("ワンちゃん");
+		}
+		else {
+			animal[i] = new Chicken("鶏ちゃん");
+		}
+	}
 
-	cat->Cry();
-	dog->Cry();
-	chicken->Cry();
-
-	delete cat; delete dog; delete chicken;
+	for (int i = 0; i < 3; ++i) {
+		animal[i]->Cry();
+	}
 	return 0;
 }
