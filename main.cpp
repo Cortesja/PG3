@@ -18,6 +18,7 @@ int main() {
 
 	for (int i = 0; i < 3; ++i) {
 		animal[i]->Cry();
+		delete animal[i];
 	}
 	return 0;
 }
