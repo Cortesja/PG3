@@ -4,6 +4,7 @@ class Chicken: public Animal
 {
 public:
 	Chicken(const char* name) { name_ = name; }
+	~Chicken() {}
 	/// <summary>
 	/// 鶏の鳴き声
 	/// </summary>
