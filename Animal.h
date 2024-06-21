@@ -2,6 +2,8 @@
 class Animal
 {
 public:
+	Animal(){}
+	~Animal(){}
 	/// <summary>
 	/// 鳴き声
 	/// </summary>
