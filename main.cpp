@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include "DeathEater.h"
-#include "Dementor.h"
+#include "Animal.h"
+#include "Cat.h"
+#include "Dog.h"
+#include "Chicken.h"
 int main() {
-	DeathEater* deathEater[3];
-	for (int i = 0; i < 3; ++i) {
-		if (i < 1) {
-			deathEater[i] = new Dementor;
-		}
-		else {
-			deathEater[i] = new DeathEater;
-		}
-	}
+	Animal* cat = new Cat("猫ちゃん");
+	Animal* dog = new Dog("ワンちゃん");
+	Animal* chicken = new Chicken("鶏ちゃん");
 
-	for (int i = 0; i < 3; ++i) {
-		deathEater[i]->Attack();
-	}
+	cat->Cry();
+	dog->Cry();
+	chicken->Cry();
 
+	delete cat; delete dog; delete chicken;
 	return 0;
 }
